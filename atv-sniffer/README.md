@@ -28,7 +28,7 @@ pip install -r sniffer/requirements.txt
 1. Em um terminal, execute o sniffer:
 sudo python3 sniffer/sniffer.py -v
 
-2. Em outro terminal, inicie o servidor web:
+2. Em outro terminal, acesse a pasta do projeto e inicie o servidor web:
 python3 -m http.server 8000 --directory web
 
 3. Acesse http://localhost:8000 no seu navegador.
